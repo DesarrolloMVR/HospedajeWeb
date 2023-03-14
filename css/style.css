@@ -1,0 +1,29 @@
+/*Se cargan las fuentes del proyecto*/
+  
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin : 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+header .logo img{
+    width: auto;
+    height: 70px;
+}
