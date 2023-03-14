@@ -52,7 +52,7 @@ header .nav-links li:hover{
 }
 
 header .nav-links a{
-    font-size: 700;
+    font-size: 0.8 rem;
     color: aliceblue;
     text-decoration: none;
 }
@@ -61,9 +61,19 @@ header .nav-links a:hover{
     color: black;
 }
 
-button{
+header button{
     color: #7798FC;
     padding: 9px 25px;
     background-color: antiquewhite;
-    font-weight: 700;
+    font-weight: 0.8rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s easy 0s;
+}
+
+header button:hover{
+    transform: scale(1.1);
+    background-color: azure;
+    color: black;
 }
