@@ -1,0 +1,193 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  
+}
+
+p{
+  color: dimgrey;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff914d;
+  color: mintcream;
+}
+
+.white-section{
+  background-color: white;
+}
+
+/* Container */
+
+.container-fluid {
+  padding: 15% 15% 15%;
+}
+
+/* Title Section */
+
+#title {
+  text-align: left;
+  }
+
+#title .container-fluid { 
+  padding: 2% 15% 15%;
+}
+
+
+
+/* Headings */
+
+.big-heading {
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.price-heading {
+  font-weight: 700;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  
+}
+
+.mvrnav {
+  width: 250px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: 'Montserrat';
+}
+
+
+/* Title image */
+
+.title-image{
+  width: 80%;
+  border-radius: 45%;
+  position: relative;
+  padding-left: 15%;
+  margin-left: 5rem;   
+}
+
+/* Features section */
+
+#features {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+#features.container-fluid {
+  padding: 2% 15%;
+  padding-bottom: 15%;
+  
+}
+
+.feature-icon{
+  margin-bottom: 1.5rem;
+  color: #ff914d;
+  
+}
+
+.feature-icon:hover{
+  color: #ff4c68;
+}
+
+.feature-text {
+  font-weight: 700;
+}
+
+/* Testimonials Section */
+
+#testimonial {
+  padding: 15% 15% 15%;
+}
+
+.testimonial-text{
+  font-weight: 600;
+
+}
+
+.testimonial-img {
+  border-radius: 5%;
+  width: 30%;
+  
+}
+
+/* Press Section */
+
+#press {
+   
+  padding-bottom: 2rem;
+  }
+
+.press-img {
+  width: 15%;
+  margin: 2rem 2rem 4rem;
+}
+
+/* Pricing */
+
+#pricing {
+  
+  padding: 100px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+.price-text {
+  font-weight: 700;
+}
+
+.col {
+  padding: 2% 3%;
+  font-weight: 600;
+
+}
+
+.subscription-type {
+  font-weight: 700;
+}
+
+@media (max-width: 1050px) {
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+    width: 300px;
+  }
+
+  #title{
+    text-align: center;
+  }
+  
+}
+
+#footer {
+  padding: 2% 2% 2%;
+}
+
+.footer-icons{
+  padding-left: 5px;
+  padding-right: 5px;
+}
